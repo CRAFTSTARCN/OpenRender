@@ -10,6 +10,9 @@
 - Math: glm
 - Graphics API: OpenGL(GLFW&GLAD)
 
+## External Tools
+- cmftStudio for baking default scene radiance and irradiance map
+
 ## Current feature
 
 - RHI
@@ -23,3 +26,6 @@
 - Deferred Rendering
 - Shadow
 - Clipping
+
+## Current picture
+![](./DefaultScene.png)

@@ -1,0 +1,13 @@
+{
+    "Name" : "IrradianceMap",
+    "sRGB" : true,
+    "AutoLod" : false,
+    "Faces" : [
+        "IBL/Irradiance/output_iem_posx.tga",
+        "IBL/Irradiance/output_iem_negx.tga",
+        "IBL/Irradiance/output_iem_posy.tga",
+        "IBL/Irradiance/output_iem_negy.tga",
+        "IBL/Irradiance/output_iem_posz.tga",
+        "IBL/Irradiance/output_iem_negz.tga"
+    ]
+}

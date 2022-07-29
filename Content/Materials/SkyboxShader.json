@@ -1,0 +1,7 @@
+{
+    "Name" : "SkyboxShader",
+    "Shaders" : [
+        "SkyboxShader_VS",
+        "SkyboxShader_PS"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "Name" : "Sword",
+    "Path" : "Renderable/sword.fbx",
+    "Materials" : [
+        "BladeMaterial",
+        "HandleMaterial"
+    ]
+}

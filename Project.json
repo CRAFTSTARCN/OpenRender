@@ -1,0 +1,129 @@
+{
+    "ContentFolder" : "./Content",
+    "VertexShaders" : [
+        {
+            "Name" : "PBRShader_VS",
+            "Path" : "Shaders/PBSVertex.vs"
+        },
+        {
+            "Name" : "SkyboxShader_VS",
+            "Path" : "Shaders/Skybox.vs"
+        }
+    ],
+
+    "FragmentShaders" : [
+        {
+            "Name" : "PBRShader_PS",
+            "Path" : "Shaders/PBSFrag.fs"
+        },
+        {
+            "Name" : "SkyboxShader_PS",
+            "Path" : "Shaders/Skybox.fs"
+        }
+    ],
+
+    "ShaderPrograms" : [
+        "Materials/SkyboxShader.json",
+        "Materials/PBRShader.json"
+    ],
+
+    "TextureHDR" : [
+        {
+            "Name" : "BRDFLut",
+            "Path" : "IBL/brdf_schilk.hdr"
+        }
+    ],
+
+    "CubeTex" : [
+        "IBL/RadianceMap.json",
+        "IBL/IrradianceMap.json"
+    ],
+
+    "CubeTexHDR" : [
+        "IBL/Skybox.json"
+    ],
+
+
+    "Materials" : [
+        "Materials/Default.json",
+        "Materials/Skybox.json",
+        "Materials/BladeMaterial.json",
+        "Materials/HandleMaterial.json"
+    ],
+
+    "Renderables" : [
+        "Renderable/Sword.json"
+    ],
+
+    "Scene" : {
+        "Instances" : [
+            {
+                "Name" : "Sword",
+                "Transform" : {
+                    "Translate" : {
+                        "x" : 0.0,
+                        "y" : -40,
+                        "z" : -50
+                    },
+                    "Rotation" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 90.0
+                    },
+                    "Scale" : {
+                        "x" : 100.0,
+                        "y" : 100.0,
+                        "z" : 100.0
+                    }
+                }
+            },
+            {
+                "Name" : "Sword",
+                "Transform" : {
+                    "Translate" : {
+                        "x" : 0.0,
+                        "y" : -40,
+                        "z" : 250
+                    },
+                    "Rotation" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 90.0
+                    },
+                    "Scale" : {
+                        "x" : 100.0,
+                        "y" : 100.0,
+                        "z" : 100.0
+                    }
+                }
+            }
+        ],
+
+        "Camera" : {
+            "InitPosition" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 100.0
+            },
+
+            "Near" : 1.0,
+            "Far" : 1600.0,
+            "Fov" : 72
+        },
+
+        "Light" : {
+            "Color" : {
+                "x" : 1.0,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+
+            "Direction" : {
+                "x" : 0.0,
+                "y" : 1.0,
+                "z" : -1.0
+            }
+        }
+
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Name" : "Skybox",
+    "ShaderName" : "SkyboxShader",
+    "ParamList" : [
+        {
+            "Name" : "Skybox",
+            "Type" : -1,
+            "Val" : "Skybox"
+        }
+    ]
+}

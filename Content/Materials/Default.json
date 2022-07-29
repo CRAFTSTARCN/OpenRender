@@ -1,0 +1,33 @@
+{
+    "Name" : "Default",
+    "ShaderName" : "PBRShader",
+
+    "LightWeight" : 1,
+    "UseIBL" : true,
+    "DoubleSided" : false,
+
+    "ParamList" : [
+        {
+            "Name" : "Metalic",
+            "Type" : 0,
+            "Val" : 1.0
+        },
+
+        {
+            "Name" : "Roughness",
+            "Type" : 0,
+            "Val" : 0.7
+        },
+
+        {
+            "Name" : "BaseColor",
+            "Type" : 1,
+            "Val" : {
+                "x" : 0.1,
+                "y" : 0.1,
+                "z" : 0.1,
+                "w" : 0.1
+            }
+        }
+    ]
+}

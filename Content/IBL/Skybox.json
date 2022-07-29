@@ -1,0 +1,14 @@
+{
+    "Name" : "Skybox",
+    "sRGB" : false,
+    "Faces" : [
+        "IBL/Cube/output_skybox_posx.hdr",
+        "IBL/Cube/output_skybox_negx.hdr",
+        "IBL/Cube/output_skybox_posy.hdr",
+        "IBL/Cube/output_skybox_negy.hdr",
+        "IBL/Cube/output_skybox_posz.hdr",
+        "IBL/Cube/output_skybox_negz.hdr"
+    ],
+
+    "AutoLod" : true
+}

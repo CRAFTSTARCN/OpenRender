@@ -1,0 +1,7 @@
+{
+    "Name" : "PBRShader",
+    "Shaders" : [
+        "PBRShader_VS",
+        "PBRShader_PS"
+    ]
+}

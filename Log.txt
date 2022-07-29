@@ -1,0 +1,9 @@
+Level: LOG
+Time: Sun Jun 26 00:09:31 2022
+
+Level: SEVER!
+FragmentShaderError: PBRShader_PS
+0(98) : error C0000: syntax error, unexpected floating point constant, expecting "::" at token "<float-const>"
+
+---------------------------------
+

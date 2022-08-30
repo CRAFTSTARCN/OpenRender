@@ -1,4 +1,0 @@
--[submodule "ThirdParty/json11"]
--	path = ThirdParty/json11
--	url = https://github.com/dropbox/json11
--   branch = master
